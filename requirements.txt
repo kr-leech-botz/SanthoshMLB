@@ -42,3 +42,6 @@ waybackpy
 xattr
 yt-dlp
 megasdkrestclient
+psycopg2-binary
+heroku3
+selenium
