@@ -1,34 +1,24 @@
 {
-  "name": "MultiFunctionBot",
-  "description": "Telegram Bot to bypass Short Links, get direct DLs & also Shorten URLs",
-  "keywords": [
-      "telegram",
-      "bypass",
-	  "dlgen",
-	  "shortener",
-      "adlinks",
-      "python",
-      "bot"
-    ],
-  "repository": "https://github.com/kr-leech-botz/VIPMLBOT",
-  "success_url": "/",
-  "env": {
-      "CONFIG_FILE_URL": {
-          "description": "Get this value from https://my.telegram.org",
-		  "value":"",
-          "required": true
-      },
-  },
-  "stack": "container",
-  "buildpacks": [
-    {
-      "url": "heroku/python"
-    }
-  ],
-  "formation": {
-      "web": {
-          "quantity": 1,
-          "size": "eco"
-      }
-  }
+	"name": "Telegram Video Merge Bot",
+	"description": "A Telegram Video Merge Bot in Pyrogram by @YashOswalYO",
+	"keywords": [
+		"telegram",
+		"video",
+		"merge",
+		"bot"
+	],
+	"repository": "https://github.com/kr-leech-botz/VIPMLBOT",
+	"website": "https://telegram.dog/yashoswalyo",
+	"stack": "container",
+	"env": {
+		"CONFIG_FILE_URL": {
+			"description": "Make Config on gist and paste raw link "
+		}
+	},
+	"formation": {
+		"worker": {
+			"quantity": 1,
+			"size": "eco"
+		}
+	}
 }
