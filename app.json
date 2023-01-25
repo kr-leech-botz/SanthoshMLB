@@ -1,0 +1,34 @@
+{
+  "name": "MultiFunctionBot",
+  "description": "Telegram Bot to bypass Short Links, get direct DLs & also Shorten URLs",
+  "keywords": [
+      "telegram",
+      "bypass",
+	  "dlgen",
+	  "shortener",
+      "adlinks",
+      "python",
+      "bot"
+    ],
+  "repository": "https://github.com/kr-leech-botz/VIPMLBOT",
+  "success_url": "/",
+  "env": {
+      "API_ID": {
+          "description": "Get this value from https://my.telegram.org",
+		  "value":"",
+          "required": true
+      },
+  },
+  "stack": "container",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+      "web": {
+          "quantity": 1,
+          "size": "eco"
+      }
+  }
+}
