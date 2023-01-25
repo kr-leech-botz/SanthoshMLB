@@ -1,3 +1,6 @@
+https://heroku.com/deploy?template=https://github.com/kr-leech-botz/VIPMLBOT
+
+
 <p align="center">
     <a href="https://github.com/weebzone/WZML">
         <kbd>
