@@ -13,10 +13,10 @@
   "repository": "https://github.com/kr-leech-botz/VIPMLBOT",
   "success_url": "/",
   "env": {
-      "API_ID": {
+      "CONFIG_FILE_URL": {
           "description": "Get this value from https://my.telegram.org",
 		  "value":"",
-          "required": true
+          "required": False
       },
   },
   "stack": "container",
